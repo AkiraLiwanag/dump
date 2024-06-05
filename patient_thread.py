@@ -3,6 +3,8 @@ import random
 import time
 
 def random_function():
+    ct = datetime.datetime.now()
+    print(ct)
     life = ["Live", "Not Operand"]
     operand = random.sample(life, 1)
     print(operand)
